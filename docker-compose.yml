@@ -1,0 +1,12 @@
+services:
+  antibiotik:
+    build: .
+    container_name: antibiotik
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # Jika ingin menyimpan config/master di host, buka komentar berikut
+    # lalu sesuaikan permission file di host (bisa diubah via menu Pengaturan/Master):
+    # volumes:
+    #   - ./config.json:/var/www/html/config.json
+    #   - ./master.json:/var/www/html/master.json

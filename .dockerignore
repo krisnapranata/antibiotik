@@ -1,0 +1,5 @@
+.git
+vendor
+config.json
+*.xlsx
+.env

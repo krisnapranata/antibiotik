@@ -1,0 +1,112 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "nama": "azitrom",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 2,
+            "nama": "amoxicillin",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 3,
+            "nama": "amoxil",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 4,
+            "nama": "aclam",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 5,
+            "nama": "cefixime",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 6,
+            "nama": "ciprofloxacin",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 7,
+            "nama": "cefadroxil",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 8,
+            "nama": "clindamycin",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 9,
+            "nama": "metronidazole",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 10,
+            "nama": "gentam",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 11,
+            "nama": "ceftriaxone",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 12,
+            "nama": "ceftazidime",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 13,
+            "nama": "cefoperazone",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 14,
+            "nama": "levofloxacin",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 15,
+            "nama": "ampicillin",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 16,
+            "nama": "meropenem",
+            "tipe": "include",
+            "aktif": true
+        },
+        {
+            "id": 101,
+            "nama": "glibenclamide",
+            "tipe": "exclude",
+            "aktif": true
+        },
+        {
+            "id": 102,
+            "nama": "salep",
+            "tipe": "exclude",
+            "aktif": true
+        }
+    ]
+}
