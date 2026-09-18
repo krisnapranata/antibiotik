@@ -3,7 +3,7 @@ services:
     build: .
     container_name: antibiotik
     ports:
-      - "8080:80"
+      - "8082:80"
     restart: unless-stopped
     # Jika ingin menyimpan config/master di host, buka komentar berikut
     # lalu sesuaikan permission file di host (bisa diubah via menu Pengaturan/Master):

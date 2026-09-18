@@ -8,7 +8,7 @@ Aplikasi PHP sederhana untuk laporan pemakaian antibiotik (triwulan & semester) 
 docker compose up -d --build
 ```
 
-Buka http://localhost:8080.
+Buka http://localhost:8082.
 
 - Image: `php:8.3-apache` + ekstensi `pdo_mysql`, `mysqli`, `gd`, `zip`, `xml`.
 - `composer install` dijalankan saat build (PhpSpreadsheet untuk export Excel).
