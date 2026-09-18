@@ -401,10 +401,10 @@ if (empty($cfg['db_name'])) {
     exit;
 }
 
-$dari = (string)($_GET['dari'] ?? '2025-01-01');
+$dari = (string)($_GET['dari'] ?? date('Y-01-01'));
 $sampai = (string)($_GET['sampai'] ?? akhir_bulan_sekarang());
 if (!valid_tgl($dari)) {
-    $dari = '2025-01-01';
+    $dari = date('Y-01-01');
 }
 if (!valid_tgl($sampai)) {
     $sampai = akhir_bulan_sekarang();

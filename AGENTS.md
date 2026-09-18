@@ -20,5 +20,5 @@ Plain-PHP app (no framework, no autoloader) that reports antibiotic usage from a
 ## Gotchas
 - `db_connect()` sets `SESSION sql_mode=''` — required for legacy Khanza data (zero dates etc.). Don't remove.
 - Laporan queries UNION `resep_obat` (prescriptions) with `detail_pemberian_obat` (administrations); drug matching is `LOWER(b.nama_brng) LIKE %kw%` against master include/exclude keywords. Each UNION branch repeats `[dari, sampai] + filter params (+ obat)` — keep the `array_merge` param order in sync with the SQL if you edit it.
-- Date defaults in `pages/laporan.php`: `dari=2025-01-01`, `sampai` = end of current month. `mode=excel` exports all periods (one sheet per quarter/semester); `mode=csv` is per-doctor and requires the `dokter` param.
+- Date defaults in `pages/laporan.php`: `dari` = start of current year, `sampai` = end of current month. `mode=excel` exports all periods (one sheet per quarter/semester); `mode=csv` is per-doctor and requires the `dokter` param.
 - Escape all output with `e()`; every file declares `strict_types=1`.
